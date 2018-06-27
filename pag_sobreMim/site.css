@@ -1,7 +1,7 @@
 body{
-	background-color: : #F2FFC;
+	background-color: #F2FFFC;
 	font-family: "Crimson Text";
-	font-size: 20px;
+	font-size: 120%;
 }
 
 main h1{
@@ -10,9 +10,11 @@ main h1{
 	color: #FAFFFA;
 	text-align: center;
 	font-family: "Open Sans Condensed", sans-serif;
+	padding: 20px;
+	margin:0;
 }
 
-h2{
+h1,h2{
 	font-size:40px;
 	font-family: "Open Sans Condensed", sans-serif;
 }
@@ -21,4 +23,54 @@ p{
 	text-align: justify;
 }
 
+main a{
+	color: #851944;
+}
 
+blockquote{
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+aside{
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+}
+
+nav a{
+	color: #F2FFFC;
+}
+
+footer{
+	background-color: #000000;
+	color: #F2FFFC;
+}
+
+blockquote,aside,footer{
+	padding: 16px;
+}
+
+main footer{
+	background-color: #F2FFFC;
+	color: #000000
+}
+
+aside a{
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-decoration: none;
+}
+
+main div{
+	width: 720px;
+	margin: auto;
+		/*As margens a seguir, combinadas, causam o mesmo efeito da margem logo acima.
+		margin-left: auto; margin-right: auto;
+		É bem comum, também, encontrarmos uma declaração como margin: 0 auto. 
+		Neste caso, estamos definindo valores diferentes para as margens: zero para as margens superior e inferior e auto para as margens laterais. 
+		De qualquer forma, temos o mesmo efeito: centralizar o elemento.
+		*/
+}
