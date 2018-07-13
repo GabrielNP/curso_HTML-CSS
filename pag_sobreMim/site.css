@@ -2,6 +2,64 @@ body{
 	background-color: #F2FFFC;
 	font-family: "Crimson Text";
 	font-size: 120%;
+	line-height: 1.5;
+	}
+
+aside{
+	background-color: #3C1D3D;
+	color: #F2FFFC;
+	text-align: center;
+	}
+
+aside a{
+	color: inherit;
+	font-family: "Open Sans Condensed", sans-serif;
+	text-decoration: none;
+	}
+
+aside h1{
+	font-size: 30px;
+	margin-bottom: 25px;
+	}
+
+blockquote{
+	background-color: #D9E5E3;
+	border: 10px solid #C2CCCA;
+	width: 250px;
+	margin: 20px 40px;
+	box-sizing: border-box;
+	}
+
+blockquote p{
+	
+	}
+
+p{
+	text-align: justify;
+	/*line-height: 1.5;*/
+	margin: 20px 0;
+	}	
+
+blockquote,aside,footer{
+	padding: 16px;
+	}
+
+em {
+    font-style: italic;
+	}
+
+footer{
+	background-color: #000000;
+	color: #F2FFFC;
+	}
+
+h2{
+	font-size:30px;
+	font-family: "Open Sans Condensed", sans-serif;
+	}
+
+#icones-sociais l1{
+	display: inline-block;
 }
 
 main h1{
@@ -12,57 +70,18 @@ main h1{
 	font-family: "Open Sans Condensed", sans-serif;
 	padding: 20px;
 	margin:0;
-}
-
-h1,h2{
-	font-size:40px;
-	font-family: "Open Sans Condensed", sans-serif;
-}
-
-p{
-	text-align: justify;
-}
+	border-bottom: 10px solid black;
+	}
 
 main a{
 	color: #851944;
-}
-
-blockquote{
-	background-color: #D9E5E3;
-	border: 10px solid #C2CCCA;
-	width: 250px;
-	margin: 0;
-	box-sizing: border-box;
-}
-
-aside{
-	background-color: #3C1D3D;
-	color: #F2FFFC;
-}
-
-nav a{
-	color: #F2FFFC;
-}
-
-footer{
-	background-color: #000000;
-	color: #F2FFFC;
-}
-
-blockquote,aside,footer{
-	padding: 16px;
-}
+	}
 
 main footer{
 	background-color: #F2FFFC;
 	color: #000000
-}
+	}
 
-aside a{
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
-	text-decoration: none;
-}
 
 main div{
 	width: 720px;
@@ -73,4 +92,13 @@ main div{
 		Neste caso, estamos definindo valores diferentes para as margens: zero para as margens superior e inferior e auto para as margens laterais. 
 		De qualquer forma, temos o mesmo efeito: centralizar o elemento.
 		*/
-}
+	padding: 30px;
+	}
+
+nav a{
+	color: #F2FFFC;
+	}
+
+strong {
+    font-weight: bold;
+	}
