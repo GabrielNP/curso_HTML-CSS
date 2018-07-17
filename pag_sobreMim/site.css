@@ -5,24 +5,40 @@ body{
 	line-height: 1.5;
 	}
 
+article{
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+	margin-bottom: 20px;
+}
+
+		.leiamais{
+			font-size: 20px;
+			color: #ccf;
+			padding: 8px;
+			margin: 16px;
+			display: block;
+			text-align: center;
+			background-color: #E6E7E8;
+}
+
 aside{
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
 	}
 
-aside a{
-	color: inherit;
-	font-family: "Open Sans Condensed", sans-serif;
-	text-decoration: none;
-	}
+		aside a{
+			color: inherit;
+			font-family: "Open Sans Condensed", sans-serif;
+			text-decoration: none;
+			}
 
-aside h1{
-	font-size: 30px;
-	margin-bottom: 25px;
-	}
+		aside h1{
+			font-size: 30px;
+			margin-bottom: 25px;
+			}
 
-blockquote{
+.citacao{
 	background-color: #D9E5E3;
 	border: 10px solid #C2CCCA;
 	width: 250px;
@@ -30,39 +46,52 @@ blockquote{
 	box-sizing: border-box;
 	}
 
-blockquote p{
-	
-	}
-
-p{
-	text-align: justify;
-	/*line-height: 1.5;*/
-	margin: 20px 0;
-	}	
-
 blockquote,aside,footer{
 	padding: 16px;
 	}
 
-em {
-    font-style: italic;
-	}
 
-footer{
+.rodape{
 	background-color: #000000;
 	color: #F2FFFC;
 	}
 
-h2{
-	font-size:30px;
-	font-family: "Open Sans Condensed", sans-serif;
-	}
 
-#icones-sociais l1{
+.icones-sociais l1{
 	display: inline-block;
-}
+	}
+		.icones-sociais a{
+			width:40px;
+			height: 40px;
+			display:inline-block;
+			text-indent: -9999px;
+		}
+			.github{
+				background-image: url(github.png);
+			}
 
-main h1{
+			.twitter{
+				background-image: url(twitter.png);
+			}
+
+			.linkedin{
+				background-image: url(linkedin.png);
+			}
+
+
+
+#rodape-pagina{
+		background-color: #000;
+		color: #F2FFFC;
+		padding: 20px;
+}
+		main footer{
+			background-color: #F2FFFC;
+			color: #000000
+			}
+
+
+.titulo-principal{
 	font-size:60px;
 	background-color: rgb(120,30,60);
 	color: #FAFFFA;
@@ -71,17 +100,40 @@ main h1{
 	padding: 20px;
 	margin:0;
 	border-bottom: 10px solid black;
+	text-transform: uppercase
+}
+
+
+/* ----------   Tags isoladas  -------------  */
+
+em{
+    font-style: italic;
+}
+
+h2{
+	font-size:30px;
+	font-family: "Open Sans Condensed", sans-serif;
 	}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+p{
+	text-align: justify;
+	/*line-height: 1.5;*/
+	margin: 20px 0;
+}	
+
+strong{
+    font-weight: bold;
+}
+
 
 main a{
 	color: #851944;
 	}
-
-main footer{
-	background-color: #F2FFFC;
-	color: #000000
-	}
-
 
 main div{
 	width: 720px;
@@ -93,12 +145,8 @@ main div{
 		De qualquer forma, temos o mesmo efeito: centralizar o elemento.
 		*/
 	padding: 30px;
-	}
+}
 
 nav a{
 	color: #F2FFFC;
-	}
-
-strong {
-    font-weight: bold;
 	}
