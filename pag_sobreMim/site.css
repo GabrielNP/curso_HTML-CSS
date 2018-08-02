@@ -12,38 +12,34 @@ article{
 			display: block;
 			text-align: center;
 			background-color: #E6E7E8;
-}
+		}
 
 aside{
 	background-color: #3C1D3D;
 	color: #F2FFFC;
 	text-align: center;
-	clear:right;
 	box-sizing:border-box;
-	}
+	position: relative;
+	top: 300px;
+}
 
 		aside a{
 			color: inherit;
 			font-family: "Open Sans Condensed", sans-serif;
 			text-decoration: none;
-			}
+		}
 
 		aside h1{
 			font-size: 30px;
 			margin-bottom: 25px;
-			}
-
-		aside,img{
-			float: right;
-			width: 15%;
-		}
+		}		
 
 body{
 	background-color: #F2FFFC;
 	font-family: "Crimson Text";
 	font-size: 120%;
 	line-height: 1.5;
-	}
+}
 		
 			
 blockquote,aside,footer{
@@ -94,6 +90,13 @@ footer{
 			background-image: url(linkedin.png);
 		}
 
+img{
+	width: 300px;
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+
 main{
 	float: left;
 	width: 85%;
@@ -101,7 +104,7 @@ main{
 		
 	main a{
 		color: #851944;
-		}
+	}
 	
 	main div{
 		width: 720px;
@@ -125,6 +128,7 @@ main{
 		background-color: #000;
 		color: #F2FFFC;
 		padding: 20px;
+		clear: both;
 }
 		main footer{
 			background-color: #F2FFFC;
@@ -176,3 +180,11 @@ nav a{
 	color: #F2FFFC;
 	text-transform: lowercase;
 	}
+
+.minha-foto, .navegacao-site{
+	box-sizing: border-box;
+	border-bottom: 10px solid #000;
+	border-left: 10px solid #000;
+	float: right;
+	
+}
