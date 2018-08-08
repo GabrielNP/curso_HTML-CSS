@@ -63,13 +63,30 @@ blockquote,aside,footer{
 				float: left;
 			}
 			
-			
-footer{
-	clear: both; /* é conhecido como a classe clearifx*/
+em{
+	font-style: italic;
 }
 
+footer{
+	clear: both; /* é conhecido como a classe clearifx*/
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
 
-.icones-sociais l1{
+h2{
+	font-size:30px;
+	font-family: "Open Sans Condensed", sans-serif;
+	clear: both;
+}
+
+h3{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.icones-sociais li{
 	display: inline-block;
 	}
 		.icones-sociais a{
@@ -79,15 +96,15 @@ footer{
 			text-indent: -9999px;
 		}
 		.github{
-			background-image: url(github.png);
+			background-image: url(../img/github.png);
 		}
 
 		.twitter{
-			background-image: url(twitter.png);
+			background-image: url(../img/twitter.png);
 		}
 
 		.linkedin{
-			background-image: url(linkedin.png);
+			background-image: url(../img/linkedin.png);
 		}
 
 img{
@@ -100,6 +117,7 @@ img{
 main{
 	float: left;
 	width: 85%;
+	padding-bottom:  80px;
 }
 		
 	main a{
@@ -117,6 +135,28 @@ main{
 			*/
 		padding: 30px;
 	}
+	
+.minha-foto, .navegacao-site{
+	box-sizing: border-box;
+	border-bottom: 10px solid #000;
+	border-left: 10px solid #000;
+	float: right;
+}
+
+nav a{
+	color: #F2FFFC;
+	text-transform: lowercase;
+}
+
+						/*.navegacao-site{
+							display: inline-block;
+						}*/
+
+p {
+	text-align: justify;
+	/*line-height: 1.5;*/
+	margin: 20px 0;
+}
 
 .rodape{
 	background-color: #000000;
@@ -135,6 +175,9 @@ main{
 			color: #000000
 			}
 
+strong{
+	font-weight: bold;
+}
 
 .titulo-principal{
 	font-size:60px;
@@ -146,45 +189,4 @@ main{
 	margin:0;
 	border-bottom: 10px solid black;
 	text-transform: uppercase
-}
-
-
-/* ----------   Tags isoladas  -------------  */
-
-em{
-    font-style: italic;
-}
-
-h2{
-	font-size:30px;
-	font-family: "Open Sans Condensed", sans-serif;
-	clear: both;
-	}
-
-h3{
-	font-size: 20px;
-	font-weight: bold;
-}
-
-p{
-	text-align: justify;
-	/*line-height: 1.5;*/
-	margin: 20px 0;
-}	
-
-strong{
-    font-weight: bold;
-}
-
-nav a{
-	color: #F2FFFC;
-	text-transform: lowercase;
-	}
-
-.minha-foto, .navegacao-site{
-	box-sizing: border-box;
-	border-bottom: 10px solid #000;
-	border-left: 10px solid #000;
-	float: right;
-	
 }
