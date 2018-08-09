@@ -1,0 +1,9 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[branch "master"]
+[remote "git_server"]
+	url = https://github.com/GabrielNP/curso_HTML-CSS.git
+	fetch = +refs/heads/*:refs/remotes/git_server/*
