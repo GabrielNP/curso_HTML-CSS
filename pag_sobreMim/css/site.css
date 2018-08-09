@@ -107,6 +107,16 @@ figure{
 		box-sizing: border-box;		
 	}
 
+	.ibm{
+		float: left;
+		box-sizing: border-box;
+	}
+
+	.g1{
+		float: left;
+		box-sizing: border-box;		
+	}
+
 footer{
 	clear: both; /* é conhecido como a classe clearifx*/
 	position: fixed;
