@@ -67,6 +67,46 @@ em{
 	font-style: italic;
 }
 
+figure{
+	margin: 10px;
+	border: 10px solid black;
+	box-sizing: border-box;
+	display: inline-block;
+	background-color: #FAFFFC;
+	
+	
+}
+
+	.row {
+		margin: -155px -185px;
+	}
+
+	.column {
+		float: left;
+		width: 25%;
+	}
+
+	.row, .row > .column {
+    	padding: 89px;
+	}
+
+	figcaption{
+		margin: 10px;
+		text-align: justify;		
+		box-sizing: border-box;
+		display: block;
+	}
+
+	.bmw{
+		float: left;
+		box-sizing: border-box;
+	}
+
+	.uol{
+		float: left;
+		box-sizing: border-box;		
+	}
+
 footer{
 	clear: both; /* é conhecido como a classe clearifx*/
 	position: fixed;
@@ -107,7 +147,7 @@ h3{
 			background-image: url(../img/linkedin.png);
 		}
 
-img{
+.minha-foto{
 	width: 300px;
 	position: absolute;
 	top: 0;
